@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Codedthemes">
+    <meta name="keywords" content="flat ui, admin flat ui, Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="author" content="Codedthemes">
+    <title>INE | SGCPV</title>
+
+    <script type="text/javascript" src="http://localhost:50659/Framework/assets/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="http://localhost:50659/Framework/formJSON/jquery.serializeToJSON.js"></script>
+    <script type="text/javascript" src="http://localhost:50659/Framework/frameworkINE.js?=v4"></script>
+    <script type="text/javascript">
+        (function () {
+            var ine_API = $.getJSON("http://localhost:50659/api/acceso", { sistema_id: 1, sistema_token: "u7fbAmCH+gIHozMuc9JgQltrsvzZ1Wtsga1RHsvk1Bc" });
+            ine_API.done(function (componente) {
+                $(".ine-Framework").html(componente[0].elemento_html);
+            });
+        })();
+    </script>
+</head>
+<body>
+    <div class="ine-Framework"></div>
+</body>
+</html>
