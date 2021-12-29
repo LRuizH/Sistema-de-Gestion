@@ -1,0 +1,2 @@
+﻿La solución activa se ha desconectado temporalmente del control de código fuente porque el servidor no está disponible. Para intentar conectarla de nuevo al control de código fuente, cierre y vuelva a abrir la solución cuando el servidor esté disponible. Si desea conectar esta solución a otro servidor, use el cuadro de diálogo Cambiar control de código fuente.
+Se ha desprotegido launchSettings.json automáticamente para editarlo.
